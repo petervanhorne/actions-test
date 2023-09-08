@@ -8,3 +8,4 @@ ddr-python
 ptyprocess
 xmltodict
 pytest
+pexpect
