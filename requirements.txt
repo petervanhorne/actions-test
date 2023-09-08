@@ -1,3 +1,9 @@
 clipspy
 regex
 pyyaml
+ncclient==0.6.9
+clips
+ddr-clips
+ddr-python
+ptyprocess
+xmltodict
