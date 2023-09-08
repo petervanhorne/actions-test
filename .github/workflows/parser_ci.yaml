@@ -1,7 +1,6 @@
 name: parser_ci
 on:
     push:
-	pull_request:
 jobs:
     run-tests:
 	    strategy:
