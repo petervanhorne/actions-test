@@ -17,4 +17,4 @@ jobs:
         python-version: 3.8
 
     - name: Install dependencies
-      run: python3 -m venv test-venv
+      run: python3 -m pip install clipspy
