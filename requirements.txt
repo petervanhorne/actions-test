@@ -7,3 +7,4 @@ ddr-clips
 ddr-python
 ptyprocess
 xmltodict
+pytest
