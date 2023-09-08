@@ -22,8 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python3 -m pip install clipspy |
-          python3 -m pip install regex |
-          python3 -m pip install pyyaml |
-          pip3 freeze
+          python3 -m pip install clipspy . |
+          python3 -m pip install regex . |
+          python3 -m pip install pyyaml .
 
