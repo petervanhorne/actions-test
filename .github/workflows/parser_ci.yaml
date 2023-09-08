@@ -23,3 +23,6 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r requirements.txt
 
+      - name: List python packages
+        run: python3 -m pip freeze
+
