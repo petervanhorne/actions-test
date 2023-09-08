@@ -21,7 +21,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install dependencies
-        run: python3 -m pip install clipspy |
-             python3 -m pip install regex |
+        run: python3 -m pip install clipspy
+             python3 -m pip install regex
              python3 -m pip install pyyaml
 
