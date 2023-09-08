@@ -1,3 +1,0 @@
-clipspy
-regex
-pyyaml
