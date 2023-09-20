@@ -305,6 +305,7 @@ def test_NXShowBgpL2vpnEvpnRT3():
                   }
     }]
 
+
 #
 # Initialize the CLIPS environment and load the FACT templates for the test
 #
