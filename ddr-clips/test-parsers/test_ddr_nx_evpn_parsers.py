@@ -152,6 +152,7 @@ Topology    Mac Address    Host IP                                 Prod   Flags 
         print("\n%%% Parser result:\n", result)
 
         assert (result) == {'nve_peer_mac_ip': {'0001.abba.edda': {'peer-ip': '204.1.1.1', 'vni': 1001, 'mac': '0001.abba.edda', 'host-ip': '5.1.1.1', 'type': 'MACIP', 'producer': 'BGP', 'flags': '--'}, '0002.abba.edda': {'peer-ip': '201.1.1.1', 'vni': 1001, 'mac': '0002.abba.edda', 'host-ip': '2.2.2.2', 'type': 'MACIP', 'producer': 'BGP', 'flags': '--'}}}
+
     
 #
 # Create CLIPs facts to verify that the ddr-facts definition for the parser works correctly
